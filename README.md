@@ -14,7 +14,7 @@ Atualmente estou:
 - 📘 Aprofundando meus estudos em **Python, Machine Learning e IA Generativa**  
 - 🧠 Participando da **Formação Completa em Inteligência Artificial (Udemy)**  
 - 💻 Construindo projetos pessoais com **LLMs, NLP e automação com IA**  
-- 🚀 Buscando uma oportunidade de **Estágio em Inteligência Artificial (GEN AI - iFood)**  
+- 🚀 Buscando uma oportunidade de **Estágio em Inteligência Artificial**  
 
 ---
 
