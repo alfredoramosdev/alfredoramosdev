@@ -20,9 +20,10 @@ Estudante de Engenharia de Software (UMJ, formação em 2028).
 Site para clínica odontológica com duas unidades em Maceió
 → [bemmaissorrir.vercel.app](https://bemmaissorrir.vercel.app)
 
-**Dra. Rosiane Maria**
-Site para clínica de harmonização facial
-→ [dra-rosiane-maria.vercel.app](https://dra-rosiane-maria.vercel.app)
+**Radar de Promoções**
+
+Bot de ofertas Amazon com automação via WhatsApp e Telegram
+→ [pagina-ponte-radar.vercel.app](https://pagina-ponte-radar.vercel.app)
 
 ## Stack
 
