@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-label="Sequencia de inicializacao do sistema">
+  <title>system boot sequence</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070D"/>
+      <stop offset="50%" stop-color="#0B1524"/>
+      <stop offset="100%" stop-color="#05070D"/>
+    </linearGradient>
+
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#7C5CFF"/>
+      <stop offset="100%" stop-color="#FF2E88"/>
+    </linearGradient>
+
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#FF2E88"/>
+    </linearGradient>
+
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#22D3EE" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softglow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="panel">
+      <rect x="1" y="1" width="998" height="318" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="318" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="998" height="318" rx="16" fill="url(#grid)"/>
+
+  <g clip-path="url(#panel)">
+    <rect x="0" y="-90" width="1000" height="90" fill="url(#scan)" opacity="0.55">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 420" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g stroke="#22D3EE" stroke-width="2" fill="none" stroke-opacity="0.7" stroke-linecap="round">
+    <path d="M22 52 V30 A8 8 0 0 1 30 22 H58"/>
+    <path d="M978 52 V30 A8 8 0 0 0 970 22 H942"/>
+    <path d="M22 268 V290 A8 8 0 0 0 30 298 H58"/>
+    <path d="M978 268 V290 A8 8 0 0 0 970 298 H942"/>
+  </g>
+
+  <g>
+    <circle cx="86" cy="34" r="5" fill="#FF2E88"/>
+    <circle cx="104" cy="34" r="5" fill="#FFB020"/>
+    <circle cx="122" cy="34" r="5" fill="#22D3EE"/>
+    <text x="146" y="39" font-family="'Courier New', ui-monospace, monospace" font-size="14" fill="#5C6B80">ramosdev://core - boot_sequence.sh</text>
+    <text x="930" y="39" text-anchor="end" font-family="'Courier New', ui-monospace, monospace" font-size="13" fill="#22D3EE" fill-opacity="0.55">maceio_AL // SECURE</text>
+    <line x1="24" y1="58" x2="976" y2="58" stroke="#22D3EE" stroke-opacity="0.18"/>
+  </g>
+
+  <g font-family="'Courier New', ui-monospace, monospace" font-size="17" xml:space="preserve">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
+             values="1;1;0;0;1" keyTimes="0;0.5667;0.6;0.995;1"/>
+
+    <text x="44" y="100" opacity="0">
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1" keyTimes="0;0.05;0.056;1"/>
+      <tspan fill="#FF2E88">&#9656;</tspan><tspan fill="#8FA3BF"> booting fullstack core ............. </tspan><tspan fill="#22D3EE">ONLINE</tspan>
+    </text>
+
+    <text x="44" y="132" opacity="0">
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1" keyTimes="0;0.1083;0.1143;1"/>
+      <tspan fill="#FF2E88">&#9656;</tspan><tspan fill="#8FA3BF"> loading [ next · node · python ] ... </tspan><tspan fill="#22D3EE">DONE</tspan>
+    </text>
+
+    <text x="44" y="164" opacity="0">
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1" keyTimes="0;0.1667;0.1727;1"/>
+      <tspan fill="#FF2E88">&#9656;</tspan><tspan fill="#8FA3BF"> mounting /dev/ia .................. </tspan><tspan fill="#22D3EE">MOUNTED</tspan>
+    </text>
+
+    <text x="44" y="196" opacity="0">
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1" keyTimes="0;0.225;0.231;1"/>
+      <tspan fill="#FF2E88">&#9656;</tspan><tspan fill="#8FA3BF"> supabase · RLS check .............. </tspan><tspan fill="#22D3EE">SECURE</tspan>
+    </text>
+
+    <text x="44" y="228" opacity="0">
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1" keyTimes="0;0.2833;0.2893;1"/>
+      <tspan fill="#FF2E88">&#9656;</tspan><tspan fill="#8FA3BF"> auth · alfredoramosdev ............ </tspan><tspan fill="#FFB020">GRANTED</tspan>
+    </text>
+
+    <rect x="44" y="246" width="10" height="18" fill="#22D3EE">
+      <animate attributeName="opacity" dur="1.1s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0;0.5;0.5;1"/>
+    </rect>
+
+    <rect x="44" y="278" width="520" height="8" rx="4" fill="#15202F"/>
+    <rect x="44" y="278" width="0" height="8" rx="4" fill="url(#bar)" filter="url(#softglow)">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite"
+               values="0;0;520;520;0" keyTimes="0;0.3333;0.5;0.995;1"/>
+    </rect>
+    <text x="584" y="286" font-size="13" fill="#22D3EE" fill-opacity="0">
+      <animate attributeName="fill-opacity" dur="12s" repeatCount="indefinite" values="0;0;0.7;0.7" keyTimes="0;0.3333;0.34;1"/>
+      compilando perfil · aguarde
+    </text>
+  </g>
+
+  <g opacity="0" text-anchor="middle">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
+             values="0;0;1;1;0;0" keyTimes="0;0.6083;0.6583;0.9333;0.9667;1"/>
+
+    <text x="500" y="118" font-family="'Courier New', ui-monospace, monospace" font-size="14" letter-spacing="8" fill="#22D3EE" fill-opacity="0.85">SYSTEM ONLINE</text>
+
+    <text x="500" y="190" font-family="Verdana, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="bold" letter-spacing="2" fill="url(#neon)" filter="url(#glow)">ALFREDO RAMOS</text>
+
+    <text x="500" y="226" font-family="'Courier New', ui-monospace, monospace" font-size="16" letter-spacing="5" fill="#8FA3BF">DEV FULLSTACK · FOCO EM IA</text>
+
+    <g stroke="#FF2E88" stroke-opacity="0.6" stroke-width="1.5">
+      <line x1="300" y1="252" x2="452" y2="252"/>
+      <line x1="548" y1="252" x2="700" y2="252"/>
+    </g>
+    <path d="M500 245 L507 252 L500 259 L493 252 Z" fill="#FF2E88"/>
+
+    <text x="500" y="286" font-family="'Courier New', ui-monospace, monospace" font-size="13" letter-spacing="4" fill="#FF2E88" fill-opacity="0.8">NEXT.JS · PYTHON · SUPABASE</text>
+  </g>
+
+  <rect x="1" y="1" width="998" height="318" rx="16" fill="none" stroke="#22D3EE" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" dur="4s" repeatCount="indefinite" values="0.25;0.65;0.25"/>
+  </rect>
+</svg>
