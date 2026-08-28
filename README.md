@@ -39,10 +39,9 @@ cliente, CRM, bot de automação, análise de dados. Se dá pra automatizar,
 eu automatizo.
 
 ```yaml
-nome:         "Alfredo Ramos"
 localizacao:  "Maceió, AL · Brasil"
 funcao:       "Desenvolvedor Fullstack · foco em IA"
-formacao:     "Eng. de Software · UMJ · dez/2028"
+formacao:     "Eng. de Software · formação em 2028"
 foco_atual:   ["IA aplicada", "automação", "segurança"]
 stack_core:   ["Next.js", "React", "Node", "Python", "Supabase"]
 projeto_solo: "Radar de Promoções"
@@ -66,7 +65,6 @@ disponivel:   "estágio em TI"
 
 **Fora do código**
 
-- `▸` Cofundador da associação de e-sports da UMJ
 - `▸` Tráfego pago e marketing de afiliados
 - `▸` Cursos de cibersegurança e engenharia de dados
 
@@ -177,13 +175,13 @@ disponivel:   "estágio em TI"
 | **analise-dados-python** | Análise de dados de vendas: limpeza, tabelas dinâmicas e gráficos. | `Python` `Pandas` `Colab` | 🟢 Público |
 | **DashboardClima** | Dashboard de clima consumindo API em tempo real. | `JavaScript` `HTML/CSS` | 🟢 Público |
 
-**Trabalhos para clientes**
+**Trabalhos para clientes** (código privado)
 
-| Cliente | Entrega | Link |
+| Segmento | Entrega | Stack |
 |:--|:--|:--|
-| **Bem Mais Sorrir** | Site para clínica odontológica com duas unidades em Maceió. | [bemmaissorrir.vercel.app](https://bemmaissorrir.vercel.app) |
-| **Jeff Studios** | CRM completo com auditoria de segurança e correção de falhas de RLS. | privado |
-| **Alenilton Barbearia** | Site institucional dark mode, com preços, avaliações e deploy configurado. | privado |
+| **Clínica odontológica** | Site institucional para clínica com duas unidades. | `Next.js` `Vercel` |
+| **Estúdio criativo** | CRM completo, com auditoria de segurança e correção de falhas de acesso. | `Next.js` `Supabase` |
+| **Barbearia** | Site institucional dark mode, com tabela de preços, avaliações e deploy configurado. | `Next.js` `Cloudflare` |
 
 </details>
 
