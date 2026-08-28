@@ -153,14 +153,14 @@ disponivel:   "estágio em TI"
 <div align="center">
 
 <a href="https://github.com/alfredoramosdev/Estudos-de-IA">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=alfredoramosdev&repo=Estudos-de-IA&bg_color=0D1117&title_color=22D3EE&text_color=8FA3BF&icon_color=FF2E88&border_color=1F2A3A&border_radius=12"/>
+  <img width="49%" src="https://github-readme-stats-wheat-rho-90.vercel.app/api/pin/?username=alfredoramosdev&repo=Estudos-de-IA&bg_color=0D1117&title_color=22D3EE&text_color=8FA3BF&icon_color=FF2E88&border_color=1F2A3A&border_radius=12"/>
 </a>
 <a href="https://github.com/alfredoramosdev/analise-dados-python">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=alfredoramosdev&repo=analise-dados-python&bg_color=0D1117&title_color=22D3EE&text_color=8FA3BF&icon_color=FF2E88&border_color=1F2A3A&border_radius=12"/>
+  <img width="49%" src="https://github-readme-stats-wheat-rho-90.vercel.app/api/pin/?username=alfredoramosdev&repo=analise-dados-python&bg_color=0D1117&title_color=22D3EE&text_color=8FA3BF&icon_color=FF2E88&border_color=1F2A3A&border_radius=12"/>
 </a>
 <br/>
 <a href="https://github.com/alfredoramosdev/DashboardClima">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=alfredoramosdev&repo=DashboardClima&bg_color=0D1117&title_color=22D3EE&text_color=8FA3BF&icon_color=FF2E88&border_color=1F2A3A&border_radius=12"/>
+  <img width="49%" src="https://github-readme-stats-wheat-rho-90.vercel.app/api/pin/?username=alfredoramosdev&repo=DashboardClima&bg_color=0D1117&title_color=22D3EE&text_color=8FA3BF&icon_color=FF2E88&border_color=1F2A3A&border_radius=12"/>
 </a>
 </div>
 
@@ -221,8 +221,8 @@ disponivel:   "estágio em TI"
 
 <div align="center">
 
-<img width="55%" src="https://github-readme-stats.vercel.app/api?username=alfredoramosdev&show_icons=true&count_private=true&include_all_commits=true&hide_border=false&bg_color=0D1117&title_color=22D3EE&text_color=8FA3BF&icon_color=FF2E88&border_color=1F2A3A&border_radius=12&rank_icon=github&custom_title=Overview"/>
-<img width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alfredoramosdev&layout=compact&langs_count=8&hide_border=false&bg_color=0D1117&title_color=22D3EE&text_color=8FA3BF&border_color=1F2A3A&border_radius=12&custom_title=Top+Languages"/>
+<img width="55%" src="https://github-readme-stats-wheat-rho-90.vercel.app/api?username=alfredoramosdev&show_icons=true&count_private=true&include_all_commits=true&hide_border=false&bg_color=0D1117&title_color=22D3EE&text_color=8FA3BF&icon_color=FF2E88&border_color=1F2A3A&border_radius=12&rank_icon=github&custom_title=Overview"/>
+<img width="35%" src="https://github-readme-stats-wheat-rho-90.vercel.app/api/top-langs/?username=alfredoramosdev&layout=compact&langs_count=8&hide_border=false&bg_color=0D1117&title_color=22D3EE&text_color=8FA3BF&border_color=1F2A3A&border_radius=12&custom_title=Top+Languages"/>
 
 <br/><br/>
 
