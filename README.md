@@ -39,7 +39,7 @@ cliente, CRM, bot de automação, análise de dados. Se dá pra automatizar,
 eu automatizo.
 
 ```yaml
-nome:         "Alfredo Ramos de Albuquerque Filho"
+nome:         "Alfredo Ramos"
 localizacao:  "Maceió, AL · Brasil"
 funcao:       "Desenvolvedor Fullstack · foco em IA"
 formacao:     "Eng. de Software · UMJ · dez/2028"
